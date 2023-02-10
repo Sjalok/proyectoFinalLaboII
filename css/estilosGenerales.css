@@ -1,0 +1,16 @@
+#contenedor {
+    display: flex;
+}
+
+header {
+    background-color: cadetblue;
+    display: flex;
+    height: 40px;
+}
+
+footer {
+    text-align: center;
+    height: 25px;
+    background-color: cadetblue;
+    color: beige;
+}
