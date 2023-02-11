@@ -1,11 +1,155 @@
-#contenedor {
+/* #contenedor {
+    display: flex;
+} */
+
+body {
+    margin: 0px;
+}
+
+/* ESTILOS DEL HEADER */
+
+#menuarriba {
+    background-color: cadetblue;
+    display: flex;
+    padding: 10px;
+}
+
+#login {
+    width: 50px;
+    height: 50px;
+    margin-right: 70px;
+}
+
+#Fishron {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: auto;
+}
+
+#boton {
+    border-color: black;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 40px;
+    margin: auto 50px;
+}
+
+#aux {
+    display: flex;
+    align-items: center;
+}
+
+/* ESTILOS DEL NAVEGADOR */
+
+#navigator {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: red;
+    width: 250px;
+    align-content: space-around;
+    padding: 20px;
+}
+
+#barranavegador {
+    margin: 50px 30px 50px 30px;
+    text-align: center;
+    width: 200px;
+    height: 80px;
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+
+/* ESTILOS DEL DASHBOARD */
+
+#contenidoPrincipal {
     display: flex;
 }
 
-header {
-    background-color: cadetblue;
+.box1 {
+    background-color:#ddd9d9;
+    min-width: 400px;
+    max-width: 500px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
     display: flex;
-    height: 40px;
+}
+
+.box2 {
+    background-color:#ddd9d9;
+    min-width: 400px;
+    max-width: 500px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.box3 {
+    background-color:#ddd9d9;
+    min-width: 400px;
+    max-width: 500px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.box4 {
+    background-color:#ddd9d9;
+    min-width: 400px;
+    max-width: 500px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.box5 {
+    background-color:#ddd9d9;
+    min-width: 400px;
+    max-width: 500px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.box6 {
+    background-color:#ddd9d9;
+    min-width: 400px;
+    max-width: 500px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.box7 {
+    background-color:#ddd9d9;
+    min-width: 400px;
+    max-width: 500px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.box8 {
+    background-color:#ddd9d9;
+    min-width: 400px;
+    max-width: 500px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
 }
 
 footer {
