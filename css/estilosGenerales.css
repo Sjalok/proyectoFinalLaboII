@@ -14,3 +14,25 @@ footer {
     background-color: cadetblue;
     color: beige;
 }
+
+.imagen{
+    width: 180px;
+    height: 180px;
+}
+
+.champ{
+    color:white;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.oro{
+    color: gold;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+
+
