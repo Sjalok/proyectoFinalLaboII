@@ -1,5 +1,10 @@
 .grafico{
     position: relative;
+    margin-right: auto;
+}
+
+#Fishron {
+    margin-right: 500px;
 }
 
 .winrate{
@@ -17,10 +22,9 @@
     top: 160px; 
 }
 
-.imagensona{
-    width: 180px;
-    height: 180px;
-    opacity: 0.8;
+.sona{
+    height: 150px;
 }
+
 
 
