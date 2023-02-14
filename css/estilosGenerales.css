@@ -9,7 +9,7 @@ body {
 /* ESTILOS DEL HEADER */
 
 #menuarriba {
-    background-color: cadetblue;
+    background-color: #181823;
     display: flex;
     padding: 10px;
 }
@@ -17,7 +17,6 @@ body {
 #login {
     width: 50px;
     height: 50px;
-    margin-right: 70px;
 }
 
 #Fishron {
@@ -32,9 +31,10 @@ body {
 #boton {
     border-color: black;
     text-align: center;
-    background-color: gray;
-    color: white;
-    font-size: 15px;
+    background-color: #FC7300;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
     padding-left: 15px;
     padding-right: 15px;
     height: 40px;
@@ -44,42 +44,33 @@ body {
 #aux {
     display: flex;
     align-items: center;
+    margin-right: 85px;
 }
 
-/* ESTILOS DEL NAVEGADOR */
+.usuario {
+    margin-top: 10px;
+    background-color: #009EFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
 
-#navigator {
+.perfil {
     display: flex;
-    flex-flow: column wrap;
-    background-color: red;
-    width: 250px;
-    align-content: space-around;
-    padding: 20px;
-}
-
-.barranavegador {
-    margin: 50px 30px 50px 30px;
-    text-align: center;
-    width: 200px;
-    height: 80px;
-    background-color: greenyellow;
-    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* ESTILOS DEL DASHBOARD */
-
-#contenidoPrincipal {
-    display: flex;
-}
 
 #contenedorCajas {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    background-color: #F7EFE5;
 }
 
 .box {
-    background-color: #ddd9d9;
+    background-color: #181823;
     min-width: 580px;
     max-width: 500px;
     height: 300px;
@@ -88,6 +79,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 5%;
+    border-radius: 25px;
 }
 
 .barras {
@@ -98,11 +90,14 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     margin: 5px;
+    align-items: center;
 }
 
 .titulo {
     border: solid;
     text-align: center;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .contenido {
@@ -112,26 +107,43 @@ body {
     justify-content: center;
 }
 
+.winratebarra1 {
+    background-color: #F2CD5C;
+    width: 19px;
+    margin: 13px;
+}
+
 .winratebarra{
-    background-color: red;
+    background-color: #1F8A70;
     width: 19px;
     margin: 13px;
 }
 
 .champion{
-    font-weight: bold;
     height: 30px;
     margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
 }
 
-.loseratebarra{
-    background-color: red;
+.orito {
+    color: #F2CD5C;
+}
+
+.porcentaje {
+    font-size: 13px;
+}
+
+.loseratebarra1 {
+    background-color: #8B7E74;
     width: 19px;
     margin: 13px;
 }
 
-.contenido {
-    display: flex;
+.loseratebarra{
+    background-color: #CD0404;
+    width: 19px;
+    margin: 13px;
 }
 
 .contenedorimagenes {
@@ -144,31 +156,15 @@ body {
 
 .parrafo {
     text-align: center;
-}
-
-.graficazo {
-    width: 55%;
-}
-
-.parrafotiempo {
-    border: solid;
-    text-align: center;
-    justify-content: center;
-}
-
-.contenedortiempo {
-    display: flex;
-    align-items: center;
-}
-
-.time {
-    border: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
 }
 
 footer {
     text-align: center;
-    height: 47px;
-    background-color: cadetblue;
+    height: 21px;
+    background-color: #181823;
     color: beige;
     position: fixed;
     left: 0px;
@@ -179,18 +175,4 @@ footer {
 .imagen{
     width: 180px;
     height: 180px;
-}
-
-.champ{
-    color:white;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-}
-
-.oro{
-    color: gold;
-    top: 0px;
-    left: 0px;
-    position: absolute;
 }

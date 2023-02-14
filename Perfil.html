@@ -10,235 +10,228 @@
             <header>
                 <nav id="menuarriba">
                     <img src="img/Fishron.png" id="Fishron">
-                    <h1>Campeon más usado:</h1>
-                    <div class="grafico">
-                        <img class="sona" src="img/sona.png">
-                        <h3 class="champ"> Sona </h3>
-                        <span class="winrate">Win rate: 53.45%</span>
-                    </div>
-
                     <div id="aux">
-                        <a href="Index.html" target="_blank"><button id="boton"> Estadisticas Generales </button></a>
-                        <img src="img/login.png" id="login">
+                        <a href="Index.html" target="_self"><button id="boton"> Estadisticas Generales </button></a>
+                        <div class="perfil">
+                            <img src="img/login.png" id="login">
+                            <button class="usuario"> Eduardo </button>
+                        </div>
                     </div>
                 </nav>
             </header>
 
             <main>
-                <div id="contenidoEstadisticas">
-                    <div id="contenedorCajas">
-                        <div class="box">
-                            <p> Tus 10 campeones con mas win rate</p>
-                            <div class="barraswinrate">
-                                <div class="barras-winrate">
-                                    <div class="winratebarra" style="height:20px"></div>
-                                    <div class="winrate1">Varus</div>
-                                </div>
-                                <div class="barras-winrate">
-                                    <div class="winratebarra" style="height:40px"></div>
-                                    <p class="winrate2">Vayne</p>
-                                </div>
-                                <div class="barras-winrate">
-                                    <div class="winratebarra" style="height:20px"></div>
-                                    <div class="winrate3">Ashe</div>
-                                </div>
-                                <div class="barras-winrate">
-                                    <div class="winratebarra" style="height:60px"></div>
-                                    <p class="winrate4">Sona</p>
-                                </div>
-                                <div class="barras-winrate">
-                                    <div class="winratebarra" style="height:10px"></div>
-                                    <div class="winrate5">Senna</div>
-                                </div>
-                                <div class="barras-winrate">
-                                    <div class="winratebarra" style="height:30px"></div>
-                                    <p class="winrate6">Tryndamere</p>
-                                </div>
-                                <div class="barras-winrate">
-                                    <div class="winratebarra" style="height:30px"></div>
-                                    <div class="winrate7">Quinn</div>
-                                </div>
-                                <div class="barras-winrate">
-                                    <div class="winratebarra" style="height:40px"></div>
-                                    <p class="winrate8">Lucian</p>
-                                </div>
-                                <div class="barras-winrate">
-                                    <div class="winratebarra" style="height:10px"></div>
-                                    <div class="winrate9">Kayle</div>
-                                </div>
-                                <div class="barras-winrate">
-                                    <div class="winratebarra" style="height:60px"></div>
-                                    <p class="winrate10">Jhin</p>
-                                </div>
+                <div id="contenedorCajas">
+                    <!-- <div class="campeonmasusado">
+                        <h2> Tu campeon mas usado: <span>Sona</span></h2>
+                        <div class="contenidoauxiliar"><p>Win rate: <span>68.84%</span></p>
+                            <img src="img/sona.png" class="sonilda">
+                            <p>Pick rate: <span>50.45%</span></p>
+                        </div>
+                    </div> -->
+                    <div class="box">
+                        <div class="titulo">
+                            <h2>Tus 10 campeones con mas win rate</h2>
+                        </div>
+                        <div class="contenido">
+                            <div class="barras">
+                                <div class="winratebarra1" style="height:140px"></div>
+                                <div class="champion">Varus <p class="porcentaje">74.95%</p></div>
+                            </div>
+                            <div class="barras">
+                                <div class="winratebarra" style="height:130px"></div>
+                                <div class="champion">Vayne <p class="porcentaje">71.42%</p></div>
+                            </div>
+                            <div class="barras">
+                                <div class="winratebarra" style="height:125px"></div>
+                                <div class="champion">Ashe <p class="porcentaje">70.54%</p></div>
+                            </div>
+                            <div class="barras">
+                                <div class="winratebarra" style="height:116px"></div>
+                                <div class="champion">Sona <p class="porcentaje">68.84%</p></div>
+                            </div>
+                            <div class="barras">
+                                <div class="winratebarra" style="height:105px"></div>
+                                <div class="champion">Senna <p class="porcentaje">63.34%</p></div>
+                            </div>
+                            <div class="barras">
+                                <div class="winratebarra" style="height:90px"></div>
+                                <div class="champion">Zyra <p class="porcentaje">52.12%</p></div>
+                            </div>
+                            <div class="barras">
+                                <div class="winratebarra" style="height:82px"></div>
+                                <div class="champion">Quinn <p class="porcentaje">50.42%</p></div>
+                            </div>
+                            <div class="barras">
+                                <div class="winratebarra" style="height:77px"></div>
+                                <div class="champion">Lucian <p class="porcentaje">48.32%</p></div>
+                            </div>
+                            <div class="barras">
+                                <div class="winratebarra" style="height:75px"></div>
+                                <div class="champion">Kayle <p class="porcentaje">48.12%</p></div>
+                            </div>
+                            <div class="barras">
+                                <div class="winratebarra" style="height:69px"></div>
+                                <div class="champion">Jhin <p class="porcentaje">46.83%</p></div>
                             </div>
                         </div>
-
-                        <div class="box">
-                            <p> tus 10 campeones con peor win rate</p>
-                            <div class="barraslooserate">
-                                <div class="barras-looserate">
-                                    <div class="looseratebarra" style="height:20px"></div>
-                                    <div class="looserate1">Wariwick</div>
-                                </div>
-                                <div class="barras-looserate">
-                                    <div class="looseratebarra" style="height:40px"></div>
-                                    <p class="looserate2">KogMaw</p>
-                                </div>
-                                <div class="barras-looserate">
-                                    <div class="looseratebarra" style="height:20px"></div>
-                                    <div class="looserate3">Yasuo</div>
-                                </div>
-                                <div class="barras-looserate">
-                                    <div class="looseratebarra" style="height:60px"></div>
-                                    <p class="looserate4">Renekton</p>
-                                </div>
-                                <div class="barras-looserate">
-                                    <div class="looseratebarra" style="height:10px"></div>
-                                    <div class="looserate5">Kassadin</div>
-                                </div>
-                                <div class="barras-looserate">
-                                    <div class="looseratebarra" style="height:30px"></div>
-                                    <p class="looserate6">Kayn</p>
-                                </div>
-                                <div class="barras-looserate">
-                                    <div class="looseratebarra" style="height:30px"></div>
-                                    <div class="looserate7">Jax</div>
-                                </div>
-                                <div class="barras-looserate">
-                                    <div class="looseratebarra" style="height:40px"></div>
-                                    <p class="looserate8">Vi</p>
-                                </div>
-                                <div class="barras-looserate">
-                                    <div class="looseratebarra" style="height:10px"></div>
-                                    <div class="looserate9">Viktor</div>
-                                </div>
-                                <div class="barras-looserate">
-                                    <div class="looseratebarra" style="height:60px"></div>
-                                    <p class="looserate10">Zeri</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="box">
-                            <p> los 3 campeones que mas pickeaste</p>
-                            <div class="campeon1">
-                                <div class="imagen1">
-                                    <!-- <img src="" alt=""> imagen de campeon 1 -->
-                                </div>
-                                <div class="porcentaje"> 50.45% </div>
-                                <div class="nombrecampeon"> Sona </div>
-                            </div>
-
-                            <div class="campeon1">
-                                <div class="imagen1">
-                                    <!-- <img src="" alt=""> imagen de campeon 2 -->
-                                </div>
-                                <div class="porcentaje"> 40.86% </div>
-                                <div class="nombrecampeon"> Senna </div>
-                            </div>
-
-                            <div class="campeon1">
-                                <div class="imagen1">
-                                    <!-- <img src="" alt=""> imagen de campeon 3 -->
-                                </div>
-                                <div class="porcentaje"> 5.44% </div>
-                                <div class="nombrecampeon"> Vayne </div>
-                            </div>
-                        </div>
-
-                        <div class="box">
-                            <p> los 3 campeones que mas baneaste</p>
-                            <div class="campeon1">
-                                <div class="imagen1">
-                                    <!-- <img src="" alt=""> imagen de campeon 1 -->
-                                </div>
-                                <div class="porcentaje"> 54.32% </div>
-                                <div class="nombrecampeon"> Zyra </div>
-                            </div>
-
-                            <div class="campeon1">
-                                <div class="imagen1">
-                                    <!-- <img src="" alt=""> imagen de campeon 2 -->
-                                </div>
-                                <div class="porcentaje"> 25.43% </div>
-                                <div class="nombrecampeon"> Samira </div>
-                            </div>
-
-                            <div class="campeon1">
-                                <div class="imagen1">
-                                    <!-- <img src="" alt=""> imagen de campeon 3 -->
-                                </div>
-                                <div class="porcentaje"> 3.98% </div>
-                                <div class="nombrecampeon"> Zilean </div>
-                            </div>
-                        </div>
-
-                        <div class="box">
-                            <p> tus 3 campeones con mas oro por partida</p>
-                            <div class="campeon1">
-                                <div class="imagen1">
-                                    <!-- <img src="" alt=""> imagen de campeon 1 -->
-                                </div>
-                                <div class="cantoro"> 9860 </div>
-                                <div class="nombrecampeon"> Vayne </div>
-                            </div>
-
-                            <div class="campeon2">
-                                <div class="imagen1">
-                                    <!-- <img src="" alt=""> imagen de campeon 2 -->
-                                </div>
-                                <div class="cantoro"> 9640 </div>
-                                <div class="nombrecampeon"> Varus </div>
-                            </div>
-
-                            <div class="campeon3">
-                                <div class="imagen1">
-                                    <!-- <img src="" alt=""> imagen de campeon 3 -->
-                                </div>
-                                <div class="cantoro"> 9354 </div>
-                                <div class="nombrecampeon"> Tristana </div>
-                            </div>
-                        </div>
-
-                        <div class="box">
-                            <p> promedio de win rate segun tu rol </p>
-                            <div class="rol">
-                                <div class="porcentaje"> 85.45% </div>
-                                <div class="nombrecampeon"> Support </div>
-                            </div>
-
-                            <div class="rol">
-                                <div class="porcentaje"> 54.54% </div>
-                                <div class="nombrecampeon"> ADC </div>
-                            </div>
-
-                            <div class="rol">
-                                <div class="porcentaje"> 40.39% </div>
-                                <div class="nombrecampeon"> Mid </div>
-                            </div>
-
-                            <div class="rol">
-                                <div class="porcentaje"> 34.98% </div>
-                                <div class="nombrecampeon"> Top </div>
-                            </div>
-
-                            <div class="rol">
-                                <div class="porcentaje"> 1.24% </div>
-                                <div class="nombrecampeon"> Jungler </div>
-                            </div>
-                        </div>
-
-                        <div class="box">
-                            <p> tu tiempo promedio de partidas </p>
-                            <p> 40 segundos mas que la temporada pasada! </p>
-                        </div>
-
                     </div>
+
+                    <div class="box">
+                        <div class="titulo">
+                            <h2>tus 10 campeones con peor win rate</h2>
+                        </div>
+                        <div class="contenido">
+                            <div class="barras">
+                                <div class="loseratebarra" style="height:130px"></div>
+                                <div class="champion">Wariwick <p class="porcentaje">30.23%</p></div>
+                            </div>
+                            <div class="barras">
+                                <div class="loseratebarra" style="height:120px"></div>
+                                <div class="champion">KogMaw <p class="porcentaje">28.12%</p></div>
+                            </div>
+                            <div class="barras">
+                                <div class="loseratebarra" style="height:90px"></div>
+                                <div class="champion">Yasuo <p class="porcentaje">22.54%</p></div>
+                            </div>
+                            <div class="barras">
+                                <div class="loseratebarra" style="height:85px"></div>
+                                <div class="champion">Renekton <p class="porcentaje">21.46%</p></div>
+                            </div>
+                            <div class="barras">
+                                <div class="loseratebarra" style="height:80px"></div>
+                                <div class="champion">Kassadin <p class="porcentaje">20.86%</p></div>
+                            </div>
+                            <div class="barras">
+                                <div class="loseratebarra" style="height:69px"></div>
+                                <div class="champion">Kayn <p class="porcentaje">18.45%</p></div>
+                            </div>
+                            <div class="barras">
+                                <div class="loseratebarra" style="height:67px"></div>
+                                <div class="champion">Jax <p class="porcentaje">18.28%</p></div>
+                            </div>
+                            <div class="barras">
+                                <div class="loseratebarra" style="height:62px"></div>
+                                <div class="champion">Vi <p class="porcentaje">17.48%</p></div>
+                            </div>
+                            <div class="barras">
+                                <div class="loseratebarra" style="height:60px"></div>
+                                <div class="champion">Viktor <p class="porcentaje">17.11%</p></div>
+                            </div>
+                            <div class="barras">
+                                <div class="loseratebarra1" style="height:50px"></div>
+                                <div class="champion">Zeri <p class="porcentaje">15.81%</p></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="titulo">
+                            <h2>los 3 campeones que mas pickeaste</h2>
+                        </div>
+                        <div class="contenido">
+                            <div class="contenedorimagenes">
+                                <div class="boximages">
+                                    <img src="img/sona.png" class="imagen">
+                                    <p class="parrafo"> 1. Sona - 50.45% </p>
+                                </div>
+
+                                <div class="boximages">
+                                    <img src="img/senna.png" class="imagen">
+                                    <p class="parrafo"> 1. Senna - 40.86% </p>
+                                </div>
+
+                                <div class="boximages">
+                                    <img src="img/vayne.png" class="imagen">
+                                    <p class="parrafo"> 1. Vayne - 5.44% </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="titulo">
+                            <h2>los 3 campeones que mas baneaste</h2>
+                        </div>
+                        <div class="contenido">
+                            <div class="contenedorimagenes">
+                                <div class="boximages">
+                                    <img src="img/zyra.png" class="imagen">
+                                    <p class="parrafo"> 1. Zyra - 54.32% </p>
+                                </div>
+
+                                <div class="boximages">
+                                    <img src="img/samira.png" class="imagen">
+                                    <p class="parrafo"> 2. Samira - 25.43%</p>
+                                </div>
+
+                                <div class="boximages">
+                                    <img src="img/zilean.png" class="imagen">
+                                    <p class="parrafo"> 3. Zilean - 3.98%</p>
+                                </div>
+                            </div>  
+                        </div>   
+                    </div>
+
+                    <div class="box">
+                        <div class="titulo">
+                            <h2>tus 3 campeones con mas oro por partida</h2>
+                        </div>
+                        <div class="contenido">
+                            <div class="contenedorimagenes">
+                                <div class="boximages">
+                                    <img src="img/vayne.png" class="imagen">
+                                    <p class="parrafo"> 1. Vayne <span class="orito"> $13.860 </span></p>
+                                </div>
+
+                                <div class="boximages">
+                                    <img src="img/varus.png" class="imagen">
+                                    <p class="parrafo"> 2. Varus <span class="orito"> $13.640 </span></p>
+                                </div>
+
+                                <div class="boximages">
+                                    <img src="img/tristana.png" class="imagen">
+                                    <p class="parrafo"> 2. Tristana <span class="orito"> $13.354 </span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="titulo">
+                            <h2>promedio de win rate segun tu rol</h2>
+                        </div>
+                        <div class="contenido">
+                            <div class="barras">
+                                <div class="winratebarra1" style="height:80px"></div>
+                                <div class="champion">Support <p class="porcentaje">85.45%</p></div>
+                            </div>
+
+                            <div class="barras">
+                                <div class="winratebarra" style="height:50px"></div>
+                                <div class="champion">ADC <p class="porcentaje">54.54%</p></div>
+                            </div>
+
+                            <div class="barras">
+                                <div class="winratebarra" style="height:40px"></div>
+                                <div class="champion">Mid <p class="porcentaje">40.39%</p></div>
+                            </div>
+
+                            <div class="barras">
+                                <div class="winratebarra" style="height:35px"></div>
+                                <div class="champion">Top <p class="porcentaje">34.98%</p></div>
+                            </div>
+
+                            <div class="barras">
+                                <div class="loseratebarra1" style="height:2px"></div>
+                                <div class="champion">Jungler <p class="porcentaje">1.24%</p></div>
+                            </div>
+                        </div>
                 </div>
             </main>
 
             <footer>
-                <p> Pagina diseñada por Franco Culotta, Francisco Cuschie y Xabier Bascuñan para el proyecto final de Laboratorio de computacion II </p>
+                <p style="margin-top: 0px;"> Pagina diseñada por Franco Culotta y Francisco Cuschie para el proyecto final de Laboratorio de computacion II </p>
             </footer>
         </div>
     </body>
