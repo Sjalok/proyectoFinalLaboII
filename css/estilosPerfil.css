@@ -26,5 +26,11 @@
     height: 150px;
 }
 
-
+.barraswinrate{
+    width: 650px!important;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
 
