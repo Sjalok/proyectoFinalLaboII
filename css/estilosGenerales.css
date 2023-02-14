@@ -78,84 +78,54 @@ body {
     justify-content: center;
 }
 
-.box1 {
-    background-color:#ddd9d9;
-    min-width: 400px;
+.box {
+    background-color: #ddd9d9;
+    min-width: 580px;
     max-width: 500px;
     height: 300px;
     margin: 40px;
     padding: 40px;
     display: flex;
+    flex-direction: column;
+    gap: 5%;
 }
 
-.box2 {
-    background-color:#ddd9d9;
-    min-width: 400px;
-    max-width: 500px;
-    height: 300px;
-    margin: 40px;
-    padding: 40px;
+.barras {
+    width: 500px!important;
+    text-align: center;
     display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 5px;
 }
 
-.box3 {
-    background-color:#ddd9d9;
-    min-width: 400px;
-    max-width: 500px;
-    height: 300px;
-    margin: 40px;
-    padding: 40px;
-    display: flex;
+.titulo {
+    border: solid;
 }
 
-.box4 {
-    background-color:#ddd9d9;
-    min-width: 400px;
-    max-width: 500px;
-    height: 300px;
-    margin: 40px;
-    padding: 40px;
+.contenido {
     display: flex;
+    flex-flow: row nowrap;
+    height: 100%;
 }
 
-.box5 {
-    background-color:#ddd9d9;
-    min-width: 400px;
-    max-width: 500px;
-    height: 300px;
-    margin: 40px;
-    padding: 40px;
-    display: flex;
+.winratebarra{
+    background-color: red;
+    width: 19px;
+    margin: 13px;
 }
 
-.box6 {
-    background-color:#ddd9d9;
-    min-width: 400px;
-    max-width: 500px;
-    height: 300px;
-    margin: 40px;
-    padding: 40px;
-    display: flex;
+.champion{
+    font-weight: bold;
+    height: 30px;
+    margin: 0px;
 }
 
-.box7 {
-    background-color:#ddd9d9;
-    min-width: 400px;
-    max-width: 500px;
-    height: 300px;
-    margin: 40px;
-    padding: 40px;
-    display: flex;
-}
-
-.box8 {
-    background-color:#ddd9d9;
-    min-width: 400px;
-    max-width: 500px;
-    height: 300px;
-    margin: 40px;
-    padding: 40px;
-    display: flex;
+.loseratebarra{
+    background-color: red;
+    width: 19px;
+    margin: 13px;
 }
 
 footer {
